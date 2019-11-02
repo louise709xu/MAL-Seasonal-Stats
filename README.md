@@ -17,7 +17,7 @@ Format:
 }
 ```
 
-Usage
+Usage:    
 `python seasonals.py`
 
 
@@ -30,7 +30,7 @@ Format:
 Dr. Stone,512,53,19,7,4,4.784873949579832
 ```
 
-Usage
-`python episode_scores.py`
-or 
+Usage:    
+`python episode_scores.py`    
+or     
 `python episode_scores.py seasonal_list_error.json`
