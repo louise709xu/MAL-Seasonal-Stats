@@ -9,7 +9,7 @@ import argparse
 
 from bs4 import BeautifulSoup
 
-def get_episode_scores(anime_file="seasonal_list.json"):
+def get_episode_scores(anime_file="seasonal_list_episode.json"):
     ep_scores = dict()
     error_anime = {}
     
@@ -24,8 +24,9 @@ def get_episode_scores(anime_file="seasonal_list.json"):
                 # Try to scrape each page
                 # May not work if too many requests at once
                 try:
-                    url = anime["link"] + "/forum?topic=episode"
-
+                    a = list(anime.values())[0]
+                    url = a["link"] + "/forum?topic=episode"
+    
                     # Get anime forum page
                     raw_html = simple_get(url)
                     html = BeautifulSoup(raw_html, 'html.parser')
@@ -40,9 +41,9 @@ def get_episode_scores(anime_file="seasonal_list.json"):
                     tables = html.find_all("tr")
 
                     # Populate scores dictionary
-                    ep_scores[anime["title"]] = [0] * 5
+                    ep_scores[a["title"]] = [0] * 5
                     for idx, t in enumerate(tables):
-                        ep_scores[anime["title"]][idx] = t.find("td", {"align": "center"}).text   
+                        ep_scores[a["title"]][idx] = t.find("td", {"align": "center"}).text   
                         if idx == 4: break
                 # If scraping is unsuccessful, print out contents of dict
                 except:
@@ -73,13 +74,10 @@ def get_episode_scores(anime_file="seasonal_list.json"):
     with open(csv_filename, file_mode) as f:
         ep.to_csv(f, header=include_header)
     
-    with open(os.path.join("output", "seasonal_list_error.json"), 'w') as outfile:
+    with open(os.path.join("output", "seasonal_list_episode.json"), 'w') as outfile:
         json.dump(error_anime, outfile, indent=4)
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='')
-    parser.add_argument("filename", help="name of json file containing list of anime (default: seasonal_list.json)")
-
-    args = parser.parse_args()
-    
-    get_episode_scores(args.filename)
+    print("Getting episode scores...")
+    get_episode_scores()
+    print("\nComplete!")
