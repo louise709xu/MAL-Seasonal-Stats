@@ -1,28 +1,6 @@
 {
     "TV (New)": [
         {
-            "38408": {
-                "title": "Boku no Hero Academia 4th Season",
-                "link": "https://myanimelist.net/anime/38408/Boku_no_Hero_Academia_4th_Season",
-                "schedule": "Oct 12, 2019, 17:30 (JST)",
-                "stats": {
-                    "episode_score": [],
-                    "user_stats": []
-                }
-            }
-        },
-        {
-            "39597": {
-                "title": "Sword Art Online: Alicization - War of Underworld",
-                "link": "https://myanimelist.net/anime/39597/Sword_Art_Online__Alicization_-_War_of_Underworld",
-                "schedule": "Oct 13, 2019, 00:00 (JST)",
-                "stats": {
-                    "episode_score": [],
-                    "user_stats": []
-                }
-            }
-        },
-        {
             "39701": {
                 "title": "Nanatsu no Taizai: Kamigami no Gekirin",
                 "link": "https://myanimelist.net/anime/39701/Nanatsu_no_Taizai__Kamigami_no_Gekirin",
@@ -38,109 +16,6 @@
                 "title": "Shokugeki no Souma: Shin no Sara",
                 "link": "https://myanimelist.net/anime/39940/Shokugeki_no_Souma__Shin_no_Sara",
                 "schedule": "Oct 12, 2019, 00:30 (JST)",
-                "stats": {
-                    "episode_score": [
-                        {
-                            "votes": [
-                                "59",
-                                "22",
-                                "8",
-                                "2",
-                                "2"
-                            ],
-                            "replies": "34"
-                        }
-                    ],
-                    "user_stats": [
-                        {
-                            "score": "8.05",
-                            "scored by": "14,138",
-                            "ranked": "#504",
-                            "popularity": "#850",
-                            "members": "130,433",
-                            "favorites": "636",
-                            "watching": "69,516",
-                            "completed": "5",
-                            "onhold": "879",
-                            "dropped": "575",
-                            "plan to watch": "59,458",
-                            "total": "130,433"
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "38659": {
-                "title": "Shinchou Yuusha: Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru",
-                "link": "https://myanimelist.net/anime/38659/Shinchou_Yuusha__Kono_Yuusha_ga_Ore_Tueee_Kuse_ni_Shinchou_Sugiru",
-                "schedule": "Oct 2, 2019, 22:30 (JST)",
-                "stats": {
-                    "episode_score": [],
-                    "user_stats": []
-                }
-            }
-        },
-        {
-            "38483": {
-                "title": "Ore wo Suki nano wa Omae dake ka yo",
-                "link": "https://myanimelist.net/anime/38483/Ore_wo_Suki_nano_wa_Omae_dake_ka_yo",
-                "schedule": "Oct 3, 2019, 00:30 (JST)",
-                "stats": {
-                    "episode_score": [],
-                    "user_stats": []
-                }
-            }
-        },
-        {
-            "38572": {
-                "title": "Assassins Pride",
-                "link": "https://myanimelist.net/anime/38572/Assassins_Pride",
-                "schedule": "Oct 10, 2019, 23:30 (JST)",
-                "stats": {
-                    "episode_score": [],
-                    "user_stats": []
-                }
-            }
-        },
-        {
-            "39491": {
-                "title": "Psycho-Pass 3",
-                "link": "https://myanimelist.net/anime/39491/Psycho-Pass_3",
-                "schedule": "Oct 25, 2019, 00:55 (JST)",
-                "stats": {
-                    "episode_score": [],
-                    "user_stats": []
-                }
-            }
-        },
-        {
-            "39539": {
-                "title": "No Guns Life",
-                "link": "https://myanimelist.net/anime/39539/No_Guns_Life",
-                "schedule": "Oct 11, 2019, 01:28 (JST)",
-                "stats": {
-                    "episode_score": [],
-                    "user_stats": []
-                }
-            }
-        },
-        {
-            "38084": {
-                "title": "Fate/Grand Order: Zettai Majuu Sensen Babylonia",
-                "link": "https://myanimelist.net/anime/38084/Fate_Grand_Order__Zettai_Majuu_Sensen_Babylonia",
-                "schedule": "Oct 5, 2019, 23:30 (JST)",
-                "stats": {
-                    "episode_score": [],
-                    "user_stats": []
-                }
-            }
-        },
-        {
-            "39195": {
-                "title": "Beastars",
-                "link": "https://myanimelist.net/anime/39195/Beastars",
-                "schedule": "Oct 10, 2019, 00:55 (JST)",
                 "stats": {
                     "episode_score": [],
                     "user_stats": []
@@ -214,17 +89,6 @@
             }
         },
         {
-            "38161": {
-                "title": "Kabukichou Sherlock",
-                "link": "https://myanimelist.net/anime/38161/Kabukichou_Sherlock",
-                "schedule": "Oct 12, 2019, 01:55 (JST)",
-                "stats": {
-                    "episode_score": [],
-                    "user_stats": []
-                }
-            }
-        },
-        {
             "39196": {
                 "title": "Mairimashita! Iruma-kun",
                 "link": "https://myanimelist.net/anime/39196/Mairimashita_Iruma-kun",
@@ -240,28 +104,6 @@
                 "title": "Watashi, Nouryoku wa Heikinchi de tte Itta yo ne!",
                 "link": "https://myanimelist.net/anime/37393/Watashi_Nouryoku_wa_Heikinchi_de_tte_Itta_yo_ne",
                 "schedule": "Oct 7, 2019, 23:30 (JST)",
-                "stats": {
-                    "episode_score": [],
-                    "user_stats": []
-                }
-            }
-        },
-        {
-            "37379": {
-                "title": "Chihayafuru 3",
-                "link": "https://myanimelist.net/anime/37379/Chihayafuru_3",
-                "schedule": "Oct 23, 2019, 01:29 (JST)",
-                "stats": {
-                    "episode_score": [],
-                    "user_stats": []
-                }
-            }
-        },
-        {
-            "37972": {
-                "title": "Hoshiai no Sora",
-                "link": "https://myanimelist.net/anime/37972/Hoshiai_no_Sora",
-                "schedule": "Oct 11, 2019, 01:58 (JST)",
                 "stats": {
                     "episode_score": [],
                     "user_stats": []
@@ -313,17 +155,6 @@
             }
         },
         {
-            "39355": {
-                "title": "Radiant 2nd Season",
-                "link": "https://myanimelist.net/anime/39355/Radiant_2nd_Season",
-                "schedule": "Oct 2, 2019, 19:25 (JST)",
-                "stats": {
-                    "episode_score": [],
-                    "user_stats": []
-                }
-            }
-        },
-        {
             "38889": {
                 "title": "Kono Oto Tomare! 2nd Season",
                 "link": "https://myanimelist.net/anime/38889/Kono_Oto_Tomare_2nd_Season",
@@ -335,32 +166,10 @@
             }
         },
         {
-            "39567": {
-                "title": "Keishichou Tokumubu Tokushu Kyouakuhan Taisakushitsu Dainanaka: Tokunana",
-                "link": "https://myanimelist.net/anime/39567/Keishichou_Tokumubu_Tokushu_Kyouakuhan_Taisakushitsu_Dainanaka__Tokunana",
-                "schedule": "Oct 6, 2019, 21:00 (JST)",
-                "stats": {
-                    "episode_score": [],
-                    "user_stats": []
-                }
-            }
-        },
-        {
             "39811": {
                 "title": "Fairy Gone 2nd Season",
                 "link": "https://myanimelist.net/anime/39811/Fairy_Gone_2nd_Season",
                 "schedule": "Oct 7, 2019, 00:00 (JST)",
-                "stats": {
-                    "episode_score": [],
-                    "user_stats": []
-                }
-            }
-        },
-        {
-            "38276": {
-                "title": "Houkago Saikoro Club",
-                "link": "https://myanimelist.net/anime/38276/Houkago_Saikoro_Club",
-                "schedule": "Oct 3, 2019, 01:15 (JST)",
                 "stats": {
                     "episode_score": [],
                     "user_stats": []
@@ -467,17 +276,6 @@
             }
         },
         {
-            "37268": {
-                "title": "Z/X: Code Reunion",
-                "link": "https://myanimelist.net/anime/37268/Z_X__Code_Reunion",
-                "schedule": "Oct 8, 2019, 23:00 (JST)",
-                "stats": {
-                    "episode_score": [],
-                    "user_stats": []
-                }
-            }
-        },
-        {
             "38670": {
                 "title": "Actors: Songs Connection",
                 "link": "https://myanimelist.net/anime/38670/Actors__Songs_Connection",
@@ -493,28 +291,6 @@
                 "title": "Shin Chuuka Ichiban!",
                 "link": "https://myanimelist.net/anime/39194/Shin_Chuuka_Ichiban",
                 "schedule": "Oct 12, 2019, 02:25 (JST)",
-                "stats": {
-                    "episode_score": [],
-                    "user_stats": []
-                }
-            }
-        },
-        {
-            "40228": {
-                "title": "Bananya: Fushigi na Nakama-tachi",
-                "link": "https://myanimelist.net/anime/40228/Bananya__Fushigi_na_Nakama-tachi",
-                "schedule": "Oct 1, 2019, 07:30 (JST)",
-                "stats": {
-                    "episode_score": [],
-                    "user_stats": []
-                }
-            }
-        },
-        {
-            "40320": {
-                "title": "Tenka Hyakken: Meiji-kan e Youkoso!",
-                "link": "https://myanimelist.net/anime/40320/Tenka_Hyakken__Meiji-kan_e_Youkoso",
-                "schedule": "Oct 13, 2019, 22:54 (JST)",
                 "stats": {
                     "episode_score": [],
                     "user_stats": []
@@ -682,17 +458,6 @@
                 "title": "Kengan Ashura 2nd Season",
                 "link": "https://myanimelist.net/anime/40269/Kengan_Ashura_2nd_Season",
                 "schedule": "Oct 31, 2019",
-                "stats": {
-                    "episode_score": [],
-                    "user_stats": []
-                }
-            }
-        },
-        {
-            "40192": {
-                "title": "Gundam Build Divers Re:Rise",
-                "link": "https://myanimelist.net/anime/40192/Gundam_Build_Divers_Re_Rise",
-                "schedule": "Oct 10, 2019",
                 "stats": {
                     "episode_score": [],
                     "user_stats": []

@@ -72,7 +72,7 @@ def get_episode_scores(anime_file="seasonal_list_episode.json"):
 
     # Export file to csv
     with open(csv_filename, file_mode) as f:
-        ep.to_csv(f, header=include_header)
+        ep.to_csv(f, header=include_header, newline='')
     
     with open(os.path.join("output", "seasonal_list_episode.json"), 'w') as outfile:
         json.dump(error_anime, outfile, indent=4)

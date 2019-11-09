@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 def stats_scraper(url, mode="weekly"):
     
     if mode == "weekly":
-        keys = ['score', 'scored_by', 'ranked', 'popularity', 'members', 'favorites', 
+        keys = ['score', 'scored by', 'ranked', 'popularity', 'members', 'favorites', 
                 'watching', 'completed', 'onhold', 'dropped', 'plan to watch', 'total']
     elif mode == "season":
         keys = ['english', 'japanese', 'type', 'episodes', 'status', 'aired', 'premiered', 
@@ -88,7 +88,6 @@ def get_stats(id):
                     
     with open(os.path.join("output", "seasonal_list.json"), 'w') as outfile:
         json.dump(data, outfile, indent=4)
-
 
     
 if __name__ == "__main__":
