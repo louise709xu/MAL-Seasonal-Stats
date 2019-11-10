@@ -39,34 +39,8 @@
                 "link": "https://myanimelist.net/anime/39940/Shokugeki_no_Souma__Shin_no_Sara",
                 "schedule": "Oct 12, 2019, 00:30 (JST)",
                 "stats": {
-                    "episode_score": [
-                        {
-                            "votes": [
-                                "59",
-                                "22",
-                                "8",
-                                "2",
-                                "2"
-                            ],
-                            "replies": "34"
-                        }
-                    ],
-                    "user_stats": [
-                        {
-                            "score": "8.05",
-                            "scored by": "14,138",
-                            "ranked": "#504",
-                            "popularity": "#850",
-                            "members": "130,433",
-                            "favorites": "636",
-                            "watching": "69,516",
-                            "completed": "5",
-                            "onhold": "879",
-                            "dropped": "575",
-                            "plan to watch": "59,458",
-                            "total": "130,433"
-                        }
-                    ]
+                    "episode_score": [],
+                    "user_stats": []
                 }
             }
         },

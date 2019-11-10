@@ -31,8 +31,10 @@ def stats_scraper(url, mode="weekly"):
         if key in keys:
             stats[key] = (i.next_sibling).strip()
     
-    stats["score"] = (html.find("span", {"itemprop": "ratingValue"})).text
-    stats["scored by"] = (html.find("span", {"itemprop": "ratingCount"})).text
+    if html.find("span", {"itemprop": "ratingValue"}) != None:
+        stats["score"] = (html.find("span", {"itemprop": "ratingValue"})).text
+    if html.find("span", {"itemprop": "ratingCount"}) != None:
+        stats["scored by"] = (html.find("span", {"itemprop": "ratingCount"})).text
    
     return stats
 
@@ -47,11 +49,15 @@ def forum_scraper(url):
     html = BeautifulSoup(raw_html, 'html.parser')
     
     topic = html.find("tr", {"id": "topicRow1"})
+        
+    if topic == None:
+        return stats
     
     stats["replies"] = topic.find("td", {"align": "center", "class": "forum_boardrow2", "width": "75"}).text
     
     forum_query = (topic.find("small")).find_previous('a')['href']
-    
+    print(url)
+    print(forum_query)
     # Get episode discussion
     raw_html = simple_get("https://myanimelist.net/" + forum_query + "&pollresults=1")
     html = BeautifulSoup(raw_html, 'html.parser')
